@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Gwan/AndroidStudioProjects/android/mylayout/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/dev/android/FirstApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/dev/android/FirstApp/mylayout/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/dev/android/FirstApp/mylayout/src/main/res/layout/activity_main.xml" value="0.189873417721519" />
+        <entry key="..\:/dev/android/FirstApp/mymemo/src/main/res/layout/activity_insert.xml" value="0.25" />
+        <entry key="..\:/dev/android/FirstApp/mymemo/src/main/res/layout/activity_list.xml" value="0.25" />
+        <entry key="..\:/dev/android/FirstApp/mymemo/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/dev/android/FirstApp/mypet/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/dev/android/FirstApp/mywidget/src/main/res/layout/active_calc.xml" value="0.25" />
         <entry key="..\:/dev/android/FirstApp/mywidget/src/main/res/layout/activity_main.xml" value="0.1" />
