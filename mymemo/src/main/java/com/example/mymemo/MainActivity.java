@@ -4,13 +4,19 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ListView;
 import android.widget.Toast;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     Button btnList, btnInsert;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,14 +29,12 @@ public class MainActivity extends AppCompatActivity {
 //            startActivityForResult(intent, 1);
         });
 
+
         btnInsert = findViewById(R.id.btnInsert);
         btnInsert.setOnClickListener(v->{
-            Intent intent = new Intent(getApplicationContext(), InsertActivity.class);
-            startActivity(intent);
+//            Intent intent = new Intent(getApplicationContext(), InsertActivity.class);
+//            startActivity(intent);
         });
-
-
-
 
     }
 

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My List</string>
+    <array name="city">
+        <item>대구</item>
+        <item>부산</item>
+        <item>서울</item>
+    </array>
+</resources>

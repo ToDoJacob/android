@@ -12,7 +12,7 @@
         android:id="@+id/btnAll"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="92dp"
+        android:layout_marginStart="104dp"
         android:layout_marginTop="28dp"
         android:text="전체조회"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,21 +22,18 @@
         android:id="@+id/goBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="45dp"
+        android:layout_marginStart="33dp"
         android:text="뒤로가기"
         app:layout_constraintStart_toEndOf="@+id/btnAll"
         app:layout_constraintTop_toTopOf="@+id/btnAll" />
 
-    <EditText
-        android:id="@+id/txtResult"
-        android:layout_width="359dp"
-        android:layout_height="434dp"
-        android:layout_marginTop="12dp"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="textMultiLine"
+    <ListView
+        android:id="@+id/lv2"
+        android:layout_width="414dp"
+        android:layout_height="611dp"
+        android:layout_marginTop="44dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnAll" />
+        app:layout_constraintTop_toBottomOf="@+id/goBack" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

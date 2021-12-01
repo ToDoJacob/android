@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_weight="1"
+        android:background="#FF9797"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtAddr"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_weight="1"
+        android:background="#FFE689"
+        android:text="TextView" />
+
+</LinearLayout>

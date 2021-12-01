@@ -4,6 +4,7 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -11,7 +12,10 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/myactivity" />
+            <option value="$PROJECT_DIR$/myhttp" />
             <option value="$PROJECT_DIR$/mylayout" />
+            <option value="$PROJECT_DIR$/mylist" />
             <option value="$PROJECT_DIR$/mymemo" />
             <option value="$PROJECT_DIR$/mypet" />
             <option value="$PROJECT_DIR$/mywidget" />
