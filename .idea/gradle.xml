@@ -13,10 +13,14 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/myactivity" />
+            <option value="$PROJECT_DIR$/mydiallog" />
+            <option value="$PROJECT_DIR$/mydiary" />
+            <option value="$PROJECT_DIR$/myfile" />
             <option value="$PROJECT_DIR$/myhttp" />
             <option value="$PROJECT_DIR$/mylayout" />
             <option value="$PROJECT_DIR$/mylist" />
             <option value="$PROJECT_DIR$/mymemo" />
+            <option value="$PROJECT_DIR$/mymemory" />
             <option value="$PROJECT_DIR$/mypet" />
             <option value="$PROJECT_DIR$/mywidget" />
           </set>
