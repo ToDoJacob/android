@@ -8,9 +8,9 @@
         <entry key="..\:/dev/android/FirstApp/myactivity/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/dev/android/FirstApp/mydiallog/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/dev/android/FirstApp/mydiallog/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/dev/android/FirstApp/mydiary/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/dev/android/FirstApp/mydiary/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/dev/android/FirstApp/mydiary/src/main/res/layout/activity_view.xml" value="0.1539855072463768" />
-        <entry key="..\:/dev/android/FirstApp/mydiary/src/main/res/layout/activity_write.xml" value="0.15489130434782608" />
+        <entry key="..\:/dev/android/FirstApp/mydiary/src/main/res/layout/activity_write.xml" value="0.33" />
         <entry key="..\:/dev/android/FirstApp/mydiary/src/main/res/layout/listview_item.xml" value="0.2" />
         <entry key="..\:/dev/android/FirstApp/myfile/src/main/res/layout/activity_main.xml" value="0.24003623188405798" />
         <entry key="..\:/dev/android/FirstApp/myhttp/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
@@ -22,6 +22,7 @@
         <entry key="..\:/dev/android/FirstApp/mymemo/src/main/res/layout/activity_list.xml" value="0.25" />
         <entry key="..\:/dev/android/FirstApp/mymemo/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/dev/android/FirstApp/mypet/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/dev/android/FirstApp/myprovider/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/dev/android/FirstApp/mywidget/src/main/res/layout/active_calc.xml" value="0.25" />
         <entry key="..\:/dev/android/FirstApp/mywidget/src/main/res/layout/activity_main.xml" value="0.1" />
       </map>

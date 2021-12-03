@@ -2,7 +2,9 @@ package com.example.mydiary;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 
+import android.Manifest;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -21,6 +23,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        ActivityCompat.requestPermissions(this,
+                new String[]{Manifest.permission.READ_CALL_LOG,
+                        Manifest.permission.WRITE_EXTERNAL_STORAGE}, MODE_PRIVATE);
+
+
         dbHelper = new DBHelper(getApplicationContext()); //db초기화
 
         Button btnWriterForm = findViewById(R.id.btnWriteForm);
@@ -37,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
             System.out.println("id"+id);
             String title = list.get(i).getTitle();
             String content = list.get(i).getContent();
+            String img = list.get(i).getImg();
 //            String time = list.get(i).getTime();
             AlertDialog.Builder dialog = new AlertDialog.Builder(this);
             dialog.setTitle("수정이나 삭제버튼을 눌러주세요.")
@@ -45,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
                         intent.putExtra("id",id);
                         intent.putExtra("title",title);
                         intent.putExtra("content",content);
+                        intent.putExtra("img",img);
                         startActivity(intent);
 //                        startActivityForResult(intent,0);
                         ((DiaryAdapter)lv.getAdapter()).setData(DiaryDAO.selectAll(dbHelper));

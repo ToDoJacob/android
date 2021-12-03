@@ -17,6 +17,7 @@ public class DBHelper extends SQLiteOpenHelper {
                 + " _id integer PRIMARY KEY autoincrement, "
                 + " title text, "
                 + " content text, "
+                + " img text, "
                 + " time text)";
         db.execSQL(sql);
         sql = "insert into diary (title, content, time) values ('t1', 'contnet1', '2021-12-02')";
