@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     int start = 1;
     List<Button> btns = new ArrayList<>();
 
+
     public void reset() {
         List<Integer> numList = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16);
         Collections.shuffle(numList);
